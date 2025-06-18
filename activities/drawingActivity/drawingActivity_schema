@@ -1,0 +1,35 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "drawingActivity_schema",
+    "prefLabel": {
+        "en": "Drawing Activity"
+    },
+    "description": "Assessment of drawing tasks",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+        {
+            "isAbout": "items/drawClock",
+            "variableName": "drawClock",
+            "prefLabel": {
+                "en": "Draw a clock"
+            },
+            "backgroundImage": "./images/drawaclock.png"
+        },
+        {
+            "isAbout": "items/signName",
+            "variableName": "signName",
+            "prefLabel": {
+                "en": "Sign your name"
+            },
+            "backgroundImage": "./images/signature.png"
+        }],
+        "order": [
+            "items/signName",
+            "items/drawClock"
+        ],
+        "shuffle": false
+    }
+} 

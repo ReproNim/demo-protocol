@@ -49,6 +49,10 @@
             {"isAbout": "../activities/responsesReferenceActivity/responsesReferenceActivity_schema",
             "variableName": "responsesReferenceActivity_schema",
             "prefLabel": {"en": "Global Responses Reference Activity" }
+            },
+            {"isAbout": "../activities/drawingActivity/drawingActivity_schema",
+            "variableName": "drawingActivity_schema",
+            "prefLabel": {"en": "Drawing Activity" }
             }
         ],
     "order": [
@@ -58,7 +62,8 @@
             "../activities/selectActivity/selectActivity_schema",
             "../activities/voiceActivity/voiceActivity_schema",
             "../activities/Activity4/Activity4_schema",
-            "../activities/responsesReferenceActivity/responsesReferenceActivity_schema"
+            "../activities/responsesReferenceActivity/responsesReferenceActivity_schema",
+            "../activities/drawingActivity/drawingActivity_schema"
         ],
 		"shuffle": false,
 		"allow": [
